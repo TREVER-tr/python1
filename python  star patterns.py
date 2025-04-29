@@ -16,7 +16,7 @@ for i in range(n):
     for j in range(i,n):
         print("*",end = '  ')
     print()
-# hill pattern 31 
+# hill pattern 21 
 n=int(input(" enter the rows:"))
 for i in range(n):
     for j in range(i,n):
@@ -26,7 +26,7 @@ for i in range(n):
     for j in range(i+1):
         print("*", end= ' ')
     print()
-#reverse hill pattern 49
+#reverse hill pattern 40
 n=int(input("enter the rows:"))
 for i in range(n):
     for j   in range(i+1):
@@ -38,7 +38,7 @@ for i in range(n):
     print()
 # diamond pattern 66
 #n=int(input("enter the rows:"))
-n=31
+n=30
 for i in  range(n-1):
     for j in range(i,n):
         print(' ',end=' ')
@@ -55,6 +55,7 @@ for i in range(n):
     for j in range(i,n):
         print("*",end=' ')
     print()
+# spiral pattern with numbers like wise 
 n=4
 matrix=[[0]*n for _ in range(n)]
 top,bottom,left,right,num=0,n-1,0,n-1,1
